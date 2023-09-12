@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 
 import "./App.css";
-import BComponent from "./Components/BComponent";
+// import BComponent from "./Components/BComponent";
+import { CardWithForm } from "./Components/Card";
 
 function App() {
   return (
     <>
-      <BComponent />
+      {/* <BComponent /> */}
+      <CardWithForm/>
     </>
   );
 }
