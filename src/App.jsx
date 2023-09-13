@@ -7,7 +7,7 @@ import { CardWithForm } from "./Components/Card";
 function App() {
   return (
     <>
-      {/* <BComponent /> */}
+      <BComponent />
       <CardWithForm/>
     </>
   );
